@@ -1,67 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<!-- Metadados -->
-<head> 
+<!DOCTYPE html>  <!-- Declara o tipo de documento HTML. -->
+<html lang="pt-br"> <!-- Elemento raiz de toda página HTML. -->
+<head> <!-- Contém metadados da página, como charset, viewport e título. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Sandero</title>
 </head>
-<!-- Conteudos da página -->
-<body>
-    <!-- Cabeçalho da página -->
-    <header>
+<body> <!-- Contém o conteúdo visível da página. -->
+    <header> <!-- Cabeçalho da página -->
         <h1>Informações sobre o Renault Sandero</h1>
     </header>
-    <!-- Corpo da página -->
-    <main>
-        <section>
+    <main> <!-- Conteúdo principal da página. -->
+        <section> <!-- Seção da página. -->
             <input type="text" placeholder="Informe o modelo">
-            <button>Pesquisar</button>
+            <button onclick="botaoPesquisar()">Pesquisar</button>
         </section>
-        <section class="resultados-pesquisa">
-            <div class="item-resultado">
-                <h2><a href="#">História do Renault Sandero</a></h2>
-                <p class="descricao-meta">O Sandero é um automóvel hatch desenvolvido pela Renault do Brasil e a romena Dacia — uma subsidiária da Renault, visando especialmente os mercados em desenvolvimento do Leste Europeu e Latino-americano. O carro baseia-se na plataforma M0 (em seu lançamento na B0), a mesma utilizada pelo Clio III europeu e Renault Logan, e apesar de ser um hatchback, está posicionado em um segmento de mercado (e de preço) acima do Logan, modelo do qual deriva.</p>
-                <a href="https://pt.wikipedia.org/wiki/Renault_Sandero#:~:text=O%20Sandero%20%C3%A9%20um%20autom%C3%B3vel%20hatch%20desenvolvido%20pela%20Renault%20do" target="_blank">Saiba mais clicando aqui</a>
-            </div>
-
-            <div class="item-resultado">
-                <h2><a href="#">Sobre o modelo Authentique</a></h2>
-                <p class="descricao-meta">O Sandero Authentique é a versão de entrada da linha, ideal para quem busca um carro prático e econômico. Geralmente, oferece equipamentos básicos como ar-condicionado, direção hidráulica e vidros elétricos dianteiros.</p>
-                <a href="https://pt.wikipedia.org/wiki/Renault_Sandero" target="_blank">Saiba mais clicando aqui</a>
-            </div>
-            
-            <div class="item-resultado">
-                <h2><a href="#">Sobre o modelo Expression</a></h2>
-                <p class="descricao-meta">O Sandero Expression oferece um conjunto de equipamentos intermediário, com mais conforto e tecnologia. É uma opção popular para quem busca um bom custo-benefício e alguns itens a mais, como rádio com Bluetooth e controles no volante.</p>
-                <a href="https://pt.wikipedia.org/wiki/Renault_Sandero" target="_blank">Saiba mais clicando aqui</a>
-            </div>
-            
-            <div class="item-resultado">
-                <h2><a href="#">Sobre o modelo Privilège</a></h2>
-                <p class="descricao-meta">O Sandero Privilège é a versão mais completa da linha, oferecendo um alto nível de equipamentos e tecnologia. Geralmente, inclui itens como central multimídia, câmera de ré, rodas de liga leve e sensores de estacionamento.</p>
-                <a href="https://pt.wikipedia.org/wiki/Renault_Sandero" target="_blank">Saiba mais clicando aqui</a>
-            </div>
-            
-            <div class="item-resultado">
-                <h2><a href="#">Sobre o modelo Dynamique</a></h2>
-                <p class="descricao-meta">O Sandero Dynamique se destaca pelo seu design esportivo e equipamentos exclusivos, como bancos esportivos, aerofólio e detalhes em preto brilhante. É uma opção para quem busca um visual mais jovem e dinâmico.</p>
-                <a href="https://pt.wikipedia.org/wiki/Renault_Sandero" target="_blank">Saiba mais clicando aqui</a>
-            </div>
-            <div class="item-resultado">
-                <h2><a href="#">Tabela de modelos</a></h2>
-                <table id="tabela-carros"></table>
-            </div>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"> <!-- Seção da página. -->
         </section>
     </main>
-
-    <!-- Rodapé da página -->
-    <footer>
+    <footer> <!-- Rodapé da página -->
         <p>2024 - Conteúdo livre</p>
         <p>Todos os direitos reservados</p>
     </footer>
-    <script src="dados.js"></script>
-    <script src="app.js"></script>
+    <script src="dados.js"></script> <!-- Incluindo o arquivo externo Javascript dados.js -->
+    <script src="app.js"></script> <!-- Incluindo o arquivo externo Javascript app.js -->
 </body>
 </html>
