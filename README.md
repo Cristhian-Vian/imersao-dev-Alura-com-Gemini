@@ -4,6 +4,8 @@
 
 * Tema escolhido para desenvolvimento da aplicação: Bandas de metal.
 
+[**Acesse aqui o deploy da aplicação!**](https://imersao-dev-alura-com-gemini.vercel.app/)
+
 ### O que essa aplicação faz e como ela funciona?
 
 Ela funciona como um buscador personalizado, permitindo que os usuários encontrem informações detalhadas sobre o assunto buscado. Ao digitar o nome da banda, um artista ou até mesmo o gênero musical na barra de pesquisa, a aplicação realiza uma busca minuciosa em um banco de dados, e se a aplicação encontrar algo, retorna como resultado um ou mais cards com o nome da banda, uma breve descrição e um link para saber mais. Caso contrário, será exibida uma mensagem informando que não foram encontrados resultados. Essa ferramenta simplifica a busca por informações, tornando a experiência do usuário mais completa e satisfatória.
